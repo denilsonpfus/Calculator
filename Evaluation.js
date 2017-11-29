@@ -24,7 +24,7 @@ console.log('Listening to port 9000');
 var pho = eval('3+5');
 console.log(pho);
 
-// Entry point - index.html landing page
+// Entry point - index.html landing page;
 //app.use(express.static(path.join(__dirname)));
 
 //Listen for requests
