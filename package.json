@@ -1,15 +1,26 @@
 {
-    "name": "calculator_app",
-    "version": "1.0.0",
-    "description": "UI for Calculator App on Docker",
-    "author": "Denilson Ferreira <denilsonpfus@gmail.com>",
-    "license": "MIT",
-    "repository": {},
-    "main": "Evaluation.js",
-    "scripts": {
-        "start": "node Evaluation.js"
-    },
-    "dependencies": {
-        "express": "^4.16.1"
-    }
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "backend calculator",
+  "main": "Evaluation.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "eval": "^0.1.2",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node Evaluation.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denilsonpfus/Calculator.git"
+  },
+  "author": "Camilo Ospina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denilsonpfus/Calculator/issues"
+  },
+  "homepage": "https://github.com/denilsonpfus/Calculator#readme"
 }
